@@ -1,0 +1,79 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+ul {
+  text-align: left;
+  width: 100%;
+  /* background: green; */
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+}
+/* ul li {
+  padding: 10px 10px;
+  margin: 10px 0;
+  color: #000;
+  width: 100%;
+} */
+/* 
+
+ul li:hover {
+  background: #00004d;
+  color: #fff;
+  border-radius: 8px;
+}
+ul li:hover .mylink {
+  color: #fff;
+}
+li .mylink {
+  color: #000;
+  text-transform: capitalize;
+  font-weight: bolder;
+  padding: 20px;
+}
+li .mylink:hover {
+  color: #fff;
+}
+
+ul .dashboard .mylink {
+  background: #00004d;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+} */
+li {
+  margin: 20px auto;
+  width: 100%;
+  padding: 0px;
+  /* color: #000; */
+  /* background: red; */
+}
+li .mylink:link {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* background: #00004d; */
+  color: #000;
+  text-transform: capitalize;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border-radius: 14px;
+  width: calc(100% -40px);
+}
+li .mylink:visited {
+  color: green;
+}
+li .mylink:hover {
+  background: #00004d;
+  color: #fff;
+}
+li .mylink:active {
+  /* background: #00004d; */
+  color: #fff;
+}
+
+.activeLink {
+  background: #00004d;
+  color: #fff;
+  /* color: #fff; */
+}

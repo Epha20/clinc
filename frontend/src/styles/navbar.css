@@ -1,0 +1,59 @@
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 25px;
+
+  margin-top: 1em;
+}
+.topnav .logo {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.topnav .logo .logoname {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 0.5em;
+  color: #000;
+  text-shadow: 1px 1px 1px rgba(16, 16, 16, 0.1),
+    1px 2px 1px rgba(16, 16, 16, 0.2), 1px 3px 1px rgba(16, 16, 16, 0.1),
+    1px 4px 1px rgba(16, 16, 16, 0.2), 1px 5px 1px rgba(16, 16, 16, 0.1),
+    1px 6px 1px rgba(16, 16, 16, 0.2);
+}
+.searchbox {
+  position: relative;
+}
+
+.searchbox input {
+  padding: 8px 120px 8px 20px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.searchbox input:focus {
+  padding: 8px 250px 8px 20px;
+}
+
+.searchbox .fa {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+container .navbar .navitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navitem .lang select {
+  padding: 6px 30px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  position: relative;
+  right: 4em;
+}

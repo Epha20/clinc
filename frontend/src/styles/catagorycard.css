@@ -1,0 +1,38 @@
+.catagorycard {
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+  justify-content: center;
+}
+.catagorycard h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.row {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  /* margin: 8px 4px; */
+  border-bottom: 1px solid #d3d3d3;
+  padding-left: 6px;
+  /* border-left: 1px solid #d3d3d3; */
+}
+.labelCheckbox {
+  border-radius: 50%;
+  /* background: black; */
+  border: 6px solid #000;
+  /* padding: 5px; */
+}
+/* .labelCheckbox:nth-child(2n+0) {
+  border: 6px solid purple;
+} */
+.odd .labelCheckbox {
+  border: 6px solid purple;
+}
+/* .even .labelCheckbox {
+  border: 6px solid purple;
+} */
+/* .labelCheckbox input {
+  visibility: hidden;
+} */

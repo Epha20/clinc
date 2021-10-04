@@ -1,0 +1,11 @@
+.inputBox input[type="submit"] {
+  background: #fff;
+  color: #666;
+  max-width: 100px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.inputBox input[type="submit"]:hover {
+  background: #00fff1;
+}
